@@ -14,7 +14,7 @@ class Keyboard extends StatelessWidget {
               (index) => Expanded(
                 child: InkWell(
                   onTap: () => gameModel.value.setValue(index + 1),
-                  splashColor: Colors.purple.shade200,
+                  splashColor: Colors.purple.shade300,
                   borderRadius: BorderRadius.circular(30),
                   child: AspectRatio(
                     aspectRatio: 1 / 1,

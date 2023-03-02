@@ -11,7 +11,7 @@ class SudokuBoard extends StatelessWidget {
       (() => (Padding(
             padding: const EdgeInsets.all(16),
             child: Container(
-              color: Colors.grey.shade300,
+              color: Colors.grey.shade400,
               width: double.infinity,
               child: GridView.builder(
                 shrinkWrap: true,
